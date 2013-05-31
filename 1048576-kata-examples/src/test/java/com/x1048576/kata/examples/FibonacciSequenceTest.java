@@ -10,4 +10,14 @@ public class FibonacciSequenceTest {
 		// When
 		new FibonacciSequence();
 	}
+	
+	@Test
+	public void shouldGetFirstNumberFromFibonacciSequence() {
+		
+		// Given
+		FibonacciSequence fibonacciSequence = new FibonacciSequence();
+		
+		// When
+		int actual = fibonacciSequence.next();
+	}
 }
